@@ -1,9 +1,10 @@
-# Helper script to generate package whitelist detail unique code
+#!/usr/bin/env ruby
 
+# Helper script to generate package whitelist detail unique code
 # How to use:
 # - Change the start_number & end_number variable as your flavor
 # - change the package_whitelist_id variable
-# - on terminal run: ruby gen_package_whitelist_detail_mongodbs.rb
+# - on terminal run: ./gen_package_whitelist_detail_mongodb
 
 require 'SecureRandom'
 
